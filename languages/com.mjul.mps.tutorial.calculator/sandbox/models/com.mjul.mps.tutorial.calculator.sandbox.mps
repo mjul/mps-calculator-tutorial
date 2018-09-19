@@ -17,11 +17,6 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
-      <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
-        <child id="1163668914799" name="condition" index="3K4Cdx" />
-        <child id="1163668922816" name="ifTrue" index="3K4E3e" />
-        <child id="1163668934364" name="ifFalse" index="3K4GZi" />
-      </concept>
     </language>
     <language id="0bccfec0-6d9e-4562-a3d0-4cc0fa0e5b29" name="com.mjul.mps.tutorial.calculator">
       <concept id="1712737443921250095" name="com.mjul.mps.tutorial.calculator.structure.InputFieldReference" flags="ng" index="1HELEe">
@@ -45,15 +40,17 @@
   <node concept="1HEXJ6" id="1v4Rq5UrLdw">
     <property role="TrG5h" value="MyCalc" />
     <node concept="1HEZC2" id="1v4Rq5UrNV1" role="1HEZDx">
-      <node concept="3K4zz7" id="7zprxaSkana" role="1HEOdf">
-        <node concept="3cmrfG" id="7zprxaSkanr" role="3K4E3e">
-          <property role="3cmrfH" value="2" />
+      <node concept="17qRlL" id="4O5nXi2e9Hh" role="1HEOdf">
+        <node concept="1HELEe" id="4O5nXi2e9Ni" role="3uHU7w">
+          <ref role="1HELEh" node="1v4Rq5UrMun" resolve="depth" />
         </node>
-        <node concept="3cmrfG" id="7zprxaSkanB" role="3K4GZi">
-          <property role="3cmrfH" value="2" />
-        </node>
-        <node concept="1HELEe" id="7zprxaSkan2" role="3K4Cdx">
-          <ref role="1HELEh" node="1v4Rq5UrMui" resolve="width" />
+        <node concept="17qRlL" id="4O5nXi2e9lQ" role="3uHU7B">
+          <node concept="1HELEe" id="4O5nXi2e8Nl" role="3uHU7B">
+            <ref role="1HELEh" node="1v4Rq5UrMuk" resolve="height" />
+          </node>
+          <node concept="1HELEe" id="4O5nXi2e9m2" role="3uHU7w">
+            <ref role="1HELEh" node="1v4Rq5UrMui" resolve="width" />
+          </node>
         </node>
       </node>
     </node>
